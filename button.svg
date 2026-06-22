@@ -1,0 +1,41 @@
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" height="120" width="400">
+  <title>Minecraft Jenny Mod Download Button</title>
+  <desc id="desc">Pixel-art style download button for Minecraft Jenny Mod</desc>
+  
+  <defs>
+    <linearGradient y2="100%" x2="0%" y1="0%" x1="0%" id="buttonGradient">
+      <stop stop-color="#4CAF50" offset="0%"></stop>
+      <stop stop-color="#388E3C" offset="50%"></stop>
+      <stop stop-color="#2E7D32" offset="100%"></stop>
+    </linearGradient>
+    <filter height="140%" width="140%" y="-20%" x="-20%" id="shadow">
+      <feGaussianBlur stdDeviation="4" in="SourceAlpha"></feGaussianBlur>
+      <feOffset result="offsetblur" dy="6" dx="6"></feOffset>
+      <feComponentTransfer>
+        <feFuncA slope="0.6" type="linear"></feFuncA>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  
+  <rect filter="url(#shadow)" stroke-width="12" stroke="#1B5E20" fill="url(#buttonGradient)" ry="12" rx="12" height="80" width="360" y="20" x="20"></rect>
+
+  
+  <rect opacity="0.6" fill="#81C784" ry="8" rx="8" height="12" width="344" y="26" x="28"></rect>
+
+  
+  <text letter-spacing="2px" text-anchor="middle" fill="#FFEB3B" font-weight="bold" font-size="18" font-family="monospace" y="52" x="200">MINECRAFT</text>
+
+  
+  <text letter-spacing="1px" text-anchor="middle" paint-order="stroke fill" stroke-width="3" stroke="#1B5E20" fill="#FFFFFF" font-weight="900" font-size="28" font-family="'Arial Black', sans-serif" y="76" x="200">JENNY MOD</text>
+
+  
+  <g transform="translate(200, 95)">
+    <path stroke-width="2" stroke="#1B5E20" fill="#FFEB3B" d="M-12 0 L-12 14 L-18 14 L0 24 L18 14 L12 14 L12 0"></path>
+    <text letter-spacing="3px" text-anchor="middle" fill="#FFEB3B" font-weight="bold" font-size="13" font-family="monospace" y="38" x="0">DOWNLOAD</text>
+  </g>
+</svg>
