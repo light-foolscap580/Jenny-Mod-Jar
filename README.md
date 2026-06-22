@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="preview.png" alt="MyMod Installer" width="100%"/>
+<img src="preview.jpg" alt="MyMod Installer" width="100%"/>
 
 # Minecraft Jenny Mod
 
